@@ -1,7 +1,5 @@
-from flask import Flask, url_for
-from main import ProductList
-from markupsafe import escape
-
+from flask import Flask
+from food_planner.main import ProductList
 
 app = Flask(__name__)
 

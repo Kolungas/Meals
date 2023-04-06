@@ -11,7 +11,7 @@ class ProductList:
         if file is None:
             file = 'data/' + self.name + '.csv'
         df = pd.read_csv(file, index_col=0)
-        #TODO: add check for same names
+        # TODO: add check for same names
         return df
 
     def write_to_csv(self, file=None):
